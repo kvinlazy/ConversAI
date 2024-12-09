@@ -7,7 +7,7 @@ st.subheader("Ask any medical question, and I'll try my best to assist!")
 
 # Hugging Face API details
 API_URL = "https://api-inference.huggingface.co/models/openai-community/gpt2-xl"
-headers = {"Authorization": f"Bearer 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"}
+headers = {"Authorization": f"Bearer Your_Key_API"}
 
 # Function to query Hugging Face model
 def query_huggingface(payload):
